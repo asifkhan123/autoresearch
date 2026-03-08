@@ -483,7 +483,7 @@ WARMDOWN_RATIO = 0.7    # longer gradual cooldown
 FINAL_LR_FRAC = 0.0     # final LR as fraction of initial
 
 # Model size
-DEPTH = 4               # number of transformer layers (reduced for speed on Windows)
+DEPTH = 6               # number of transformer layers (increased capacity)
 DEVICE_BATCH_SIZE = 16   # per-device batch size (reduced for 12GB GPU)
 
 # ---------------------------------------------------------------------------
